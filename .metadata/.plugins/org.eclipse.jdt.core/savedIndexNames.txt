@@ -1,0 +1,5 @@
+INDEX VERSION 1.134+/home/lucasjoule/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core
+2949097923.index
+3056254356.index
+1486030949.index
+1865797976.index

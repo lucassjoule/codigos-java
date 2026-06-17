@@ -1,0 +1,22 @@
+package io.github.lucassjoule.javaway;
+
+
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	int port = 3010;
+    	Server server = new Server(port);
+    	Client client;
+    	while(true) {
+    		client = new Client(server.aceitarCliente(),port);
+    		System.out.println("ouvindo... nome:" + client.returnClientHostName());
+    	}
+    	
+    }
+}

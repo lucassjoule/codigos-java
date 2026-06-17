@@ -1,0 +1,13 @@
+package io.github.lucassjoule.javaway;
+
+import java.net.Socket;
+
+public class Client {
+	private Socket client;
+	private int port;
+	
+	
+	public void enviarMensagem() {
+		
+	}
+}
